@@ -6,7 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Intro {
-    private Integer introId;
+	private Integer introId;
 	private Integer companyId;
 	private String introTitle;
 	private String introBirth;
@@ -15,6 +15,6 @@ public class Intro {
 	private String introWellfare;
 	private String introContent;
 	private String introLocation;
-    private String introImage;
+	private String introImage;
 	private Integer jobId;
 }

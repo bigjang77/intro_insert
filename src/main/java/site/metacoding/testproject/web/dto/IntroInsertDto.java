@@ -20,15 +20,15 @@ public class IntroInsertDto {
 
 	public Intro toEntity() {
 		Intro intro = new Intro();
-		intro.setIntroTitle(introTitle);
-		intro.setIntroBirth(introBirth);
-		intro.setIntroTask(introTask);
-		intro.setIntroSal(introSal);
-		intro.setIntroWellfare(introWellfare);
-		intro.setIntroContent(introContent);
-		intro.setIntroLocation(introLocation);
-		intro.setIntroImage(introImage);
-		intro.setJobId(jobId);
+		intro.setIntroTitle(this.introTitle);
+		intro.setIntroBirth(this.introBirth);
+		intro.setIntroTask(this.introTask);
+		intro.setIntroSal(this.introSal);
+		intro.setIntroWellfare(this.introWellfare);
+		intro.setIntroContent(this.introContent);
+		intro.setIntroLocation(this.introLocation);
+		intro.setIntroImage(this.introImage);
+		intro.setJobId(this.jobId);
 		return intro;
 	}
 }
